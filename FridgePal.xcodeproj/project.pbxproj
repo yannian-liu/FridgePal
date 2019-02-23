@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB062F8D218762EE00FB528B /* FridgeDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB062F8C218762EE00FB528B /* FridgeDetailCell.swift */; };
+		BB062F952188174F00FB528B /* FridgeDetailEditPurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB062F942188174F00FB528B /* FridgeDetailEditPurchaseView.swift */; };
+		BB062F972188282800FB528B /* FridgeDetailViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB062F962188282800FB528B /* FridgeDetailViewControllerDelegate.swift */; };
+		BB07257921A1DFB000DC157E /* CategoryManageCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07257821A1DFB000DC157E /* CategoryManageCategoryViewController.swift */; };
+		BB07257B21A1E96E00DC157E /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07257A21A1E96E00DC157E /* AppButton.swift */; };
+		BB0ACEEC218EE2E2009E5271 /* FridgeFoodSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0ACEEB218EE2E2009E5271 /* FridgeFoodSummary.swift */; };
+		BB0ACEEE218F327A009E5271 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0ACEED218F327A009E5271 /* Purchase.swift */; };
+		BB0C22FA21830C5200D647F4 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0C22F921830C5200D647F4 /* CoreDataManager.swift */; };
+		BB0C22FC2183644000D647F4 /* AppBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0C22FB2183644000D647F4 /* AppBlur.swift */; };
+		BB0C22FE21847DFA00D647F4 /* AppShapeAndLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0C22FD21847DFA00D647F4 /* AppShapeAndLine.swift */; };
+		BB341F9A21A31D62004F48C6 /* AppInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB341F9921A31D62004F48C6 /* AppInt.swift */; };
+		BB341F9C21A323EA004F48C6 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB341F9B21A323EA004F48C6 /* SettingViewController.swift */; };
+		BB341F9F21A326C5004F48C6 /* Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB341F9E21A326C5004F48C6 /* Default.swift */; };
+		BB341FA121A586B6004F48C6 /* AppPopTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB341FA021A586B6004F48C6 /* AppPopTwoViewController.swift */; };
+		BB47EC342153755D00C60875 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47EC332153755D00C60875 /* AppDelegate.swift */; };
+		BB47EC362153755D00C60875 /* AppTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47EC352153755D00C60875 /* AppTabBarController.swift */; };
+		BB47EC3B2153755F00C60875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB47EC3A2153755F00C60875 /* Assets.xcassets */; };
+		BB47EC3E2153755F00C60875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB47EC3C2153755F00C60875 /* LaunchScreen.storyboard */; };
+		BB47EC46215375C700C60875 /* FridgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47EC45215375C700C60875 /* FridgeViewController.swift */; };
+		BB47EC492153760F00C60875 /* AppLayoutParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47EC482153760F00C60875 /* AppLayoutParameter.swift */; };
+		BB47EC4E2153922C00C60875 /* FridgeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47EC4D2153922C00C60875 /* FridgeCell.swift */; };
+		BB47EC502153924300C60875 /* FridgeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47EC4F2153924300C60875 /* FridgeHeader.swift */; };
+		BB47EC52215392F100C60875 /* FridgeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47EC51215392F100C60875 /* FridgeDetailViewController.swift */; };
+		BB47EC5A2153E32000C60875 /* ExpandableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47EC592153E32000C60875 /* ExpandableSection.swift */; };
+		BB47EC5C2153FF0500C60875 /* FridgeViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47EC5B2153FF0500C60875 /* FridgeViewControllerDelegate.swift */; };
+		BB547D6921918564001F3A30 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB547D6821918564001F3A30 /* Product.swift */; };
+		BB6FBC3C21802EDE003C0190 /* AppColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6FBC3B21802EDE003C0190 /* AppColour.swift */; };
+		BB6FBC3E21803379003C0190 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6FBC3D21803379003C0190 /* AppFont.swift */; };
+		BB7029DB21970A3A009B5124 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7029DA21970A3A009B5124 /* AppViewController.swift */; };
+		BB7029DF21971388009B5124 /* AppPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7029DE21971388009B5124 /* AppPopViewController.swift */; };
+		BB7029E121986FA2009B5124 /* CategoryCreateCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7029E021986FA2009B5124 /* CategoryCreateCategoryViewController.swift */; };
+		BB7029E321988670009B5124 /* CategoryViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7029E221988670009B5124 /* CategoryViewControllerDelegate.swift */; };
+		BB7029E5219945F9009B5124 /* CategoryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7029E4219945F9009B5124 /* CategoryHeader.swift */; };
+		BB70B5B42185EFD30028AE72 /* AppShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70B5B32185EFD30028AE72 /* AppShadow.swift */; };
+		BB72B0D221A04FA900557BBB /* FridgeAddPurchaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB72B0D121A04FA900557BBB /* FridgeAddPurchaseCell.swift */; };
+		BB748DF2218DCB0000CAA6DC /* AppAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB748DF1218DCB0000CAA6DC /* AppAnimation.swift */; };
+		BB7A075621956A9600E4378B /* FridgeAddPurchaseViewController+ContainerView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A075521956A9600E4378B /* FridgeAddPurchaseViewController+ContainerView2.swift */; };
+		BB7A075821956C5000E4378B /* FridgeAddPurchaseViewController+ContainerView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A075721956C5000E4378B /* FridgeAddPurchaseViewController+ContainerView1.swift */; };
+		BB7A075C2196B6A400E4378B /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7A075B2196B6A400E4378B /* Dictionary.swift */; };
+		BB936FB2218BFC1E00B5CABA /* AppDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB936FB1218BFC1E00B5CABA /* AppDate.swift */; };
+		BB936FB4218C150F00B5CABA /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB936FB3218C150E00B5CABA /* CategoryViewController.swift */; };
+		BBBE0FE42181AA8E00223B6A /* FridgeAddPurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE0FE32181AA8E00223B6A /* FridgeAddPurchaseViewController.swift */; };
+		BBBE10082181FB9C00223B6A /* FridgePalModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BBBE10062181FB9B00223B6A /* FridgePalModel.xcdatamodeld */; };
+		BBC182FD21A6BAC000C7D610 /* CategoryCreateCategoryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC182FC21A6BAC000C7D610 /* CategoryCreateCategoryCollectionCell.swift */; };
+		BBC1830021A73D6000C7D610 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC182FF21A73D6000C7D610 /* CategoryCell.swift */; };
+		BBC1830521A75F1F00C7D610 /* CategoryIndexListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1830421A75F1F00C7D610 /* CategoryIndexListView.swift */; };
+		BBC1830721A976D400C7D610 /* CategoryCreateProductCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1830621A976D400C7D610 /* CategoryCreateProductCollectionCell.swift */; };
+		BBC1830A21A9937700C7D610 /* AppPopSwipeForCreatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1830921A9937700C7D610 /* AppPopSwipeForCreatingViewController.swift */; };
+		BBC1830C21A9F32900C7D610 /* CategoryManageCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1830B21A9F32900C7D610 /* CategoryManageCategoryCell.swift */; };
+		BBC1830E21AA0CF200C7D610 /* CategoryManageCategoryViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1830D21AA0CF200C7D610 /* CategoryManageCategoryViewControllerDelegate.swift */; };
+		BBC1831021AA193B00C7D610 /* CategoryMangeCategoryEditCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1830F21AA193B00C7D610 /* CategoryMangeCategoryEditCategoryViewController.swift */; };
+		BBEF402F2188A201004D7E93 /* CategoryCreateProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEF402E2188A201004D7E93 /* CategoryCreateProductViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB062F8C218762EE00FB528B /* FridgeDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeDetailCell.swift; sourceTree = "<group>"; };
+		BB062F942188174F00FB528B /* FridgeDetailEditPurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeDetailEditPurchaseView.swift; sourceTree = "<group>"; };
+		BB062F962188282800FB528B /* FridgeDetailViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeDetailViewControllerDelegate.swift; sourceTree = "<group>"; };
+		BB07257821A1DFB000DC157E /* CategoryManageCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryManageCategoryViewController.swift; sourceTree = "<group>"; };
+		BB07257A21A1E96E00DC157E /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		BB0ACEEB218EE2E2009E5271 /* FridgeFoodSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeFoodSummary.swift; sourceTree = "<group>"; };
+		BB0ACEED218F327A009E5271 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		BB0C22F921830C5200D647F4 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		BB0C22FB2183644000D647F4 /* AppBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBlur.swift; sourceTree = "<group>"; };
+		BB0C22FD21847DFA00D647F4 /* AppShapeAndLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShapeAndLine.swift; sourceTree = "<group>"; };
+		BB341F9921A31D62004F48C6 /* AppInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInt.swift; sourceTree = "<group>"; };
+		BB341F9B21A323EA004F48C6 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		BB341F9E21A326C5004F48C6 /* Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Default.swift; sourceTree = "<group>"; };
+		BB341FA021A586B6004F48C6 /* AppPopTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPopTwoViewController.swift; sourceTree = "<group>"; };
+		BB47EC302153755D00C60875 /* FridgePal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FridgePal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB47EC332153755D00C60875 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB47EC352153755D00C60875 /* AppTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarController.swift; sourceTree = "<group>"; };
+		BB47EC3A2153755F00C60875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB47EC3D2153755F00C60875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB47EC3F2153755F00C60875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB47EC45215375C700C60875 /* FridgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeViewController.swift; sourceTree = "<group>"; };
+		BB47EC482153760F00C60875 /* AppLayoutParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLayoutParameter.swift; sourceTree = "<group>"; };
+		BB47EC4D2153922C00C60875 /* FridgeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeCell.swift; sourceTree = "<group>"; };
+		BB47EC4F2153924300C60875 /* FridgeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeHeader.swift; sourceTree = "<group>"; };
+		BB47EC51215392F100C60875 /* FridgeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeDetailViewController.swift; sourceTree = "<group>"; };
+		BB47EC592153E32000C60875 /* ExpandableSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableSection.swift; sourceTree = "<group>"; };
+		BB47EC5B2153FF0500C60875 /* FridgeViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeViewControllerDelegate.swift; sourceTree = "<group>"; };
+		BB547D6821918564001F3A30 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		BB6FBC3B21802EDE003C0190 /* AppColour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColour.swift; sourceTree = "<group>"; };
+		BB6FBC3D21803379003C0190 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		BB7029DA21970A3A009B5124 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		BB7029DE21971388009B5124 /* AppPopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPopViewController.swift; sourceTree = "<group>"; };
+		BB7029E021986FA2009B5124 /* CategoryCreateCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCreateCategoryViewController.swift; sourceTree = "<group>"; };
+		BB7029E221988670009B5124 /* CategoryViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewControllerDelegate.swift; sourceTree = "<group>"; };
+		BB7029E4219945F9009B5124 /* CategoryHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHeader.swift; sourceTree = "<group>"; };
+		BB70B5B32185EFD30028AE72 /* AppShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShadow.swift; sourceTree = "<group>"; };
+		BB72B0D121A04FA900557BBB /* FridgeAddPurchaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeAddPurchaseCell.swift; sourceTree = "<group>"; };
+		BB748DF1218DCB0000CAA6DC /* AppAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAnimation.swift; sourceTree = "<group>"; };
+		BB7A075521956A9600E4378B /* FridgeAddPurchaseViewController+ContainerView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FridgeAddPurchaseViewController+ContainerView2.swift"; sourceTree = "<group>"; };
+		BB7A075721956C5000E4378B /* FridgeAddPurchaseViewController+ContainerView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FridgeAddPurchaseViewController+ContainerView1.swift"; sourceTree = "<group>"; };
+		BB7A075B2196B6A400E4378B /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		BB936FB1218BFC1E00B5CABA /* AppDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDate.swift; sourceTree = "<group>"; };
+		BB936FB3218C150E00B5CABA /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		BBBE0FE32181AA8E00223B6A /* FridgeAddPurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeAddPurchaseViewController.swift; sourceTree = "<group>"; };
+		BBBE10072181FB9C00223B6A /* FridgePalModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FridgePalModel.xcdatamodel; sourceTree = "<group>"; };
+		BBC182FC21A6BAC000C7D610 /* CategoryCreateCategoryCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCreateCategoryCollectionCell.swift; sourceTree = "<group>"; };
+		BBC182FF21A73D6000C7D610 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		BBC1830421A75F1F00C7D610 /* CategoryIndexListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryIndexListView.swift; sourceTree = "<group>"; };
+		BBC1830621A976D400C7D610 /* CategoryCreateProductCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCreateProductCollectionCell.swift; sourceTree = "<group>"; };
+		BBC1830921A9937700C7D610 /* AppPopSwipeForCreatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPopSwipeForCreatingViewController.swift; sourceTree = "<group>"; };
+		BBC1830B21A9F32900C7D610 /* CategoryManageCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryManageCategoryCell.swift; sourceTree = "<group>"; };
+		BBC1830D21AA0CF200C7D610 /* CategoryManageCategoryViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryManageCategoryViewControllerDelegate.swift; sourceTree = "<group>"; };
+		BBC1830F21AA193B00C7D610 /* CategoryMangeCategoryEditCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryMangeCategoryEditCategoryViewController.swift; sourceTree = "<group>"; };
+		BBEF402E2188A201004D7E93 /* CategoryCreateProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCreateProductViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB47EC2D2153755D00C60875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB062F92218813F200FB528B /* 1.1 Fridge - Add Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				BBBE0FE32181AA8E00223B6A /* FridgeAddPurchaseViewController.swift */,
+				BB7A075721956C5000E4378B /* FridgeAddPurchaseViewController+ContainerView1.swift */,
+				BB7A075521956A9600E4378B /* FridgeAddPurchaseViewController+ContainerView2.swift */,
+				BB72B0D121A04FA900557BBB /* FridgeAddPurchaseCell.swift */,
+			);
+			path = "1.1 Fridge - Add Purchase";
+			sourceTree = "<group>";
+		};
+		BB062F932188141200FB528B /* 1.2 Fridge - Detail */ = {
+			isa = PBXGroup;
+			children = (
+				BB47EC51215392F100C60875 /* FridgeDetailViewController.swift */,
+				BB062F8C218762EE00FB528B /* FridgeDetailCell.swift */,
+				BB062F962188282800FB528B /* FridgeDetailViewControllerDelegate.swift */,
+				BB062F942188174F00FB528B /* FridgeDetailEditPurchaseView.swift */,
+			);
+			path = "1.2 Fridge - Detail";
+			sourceTree = "<group>";
+		};
+		BB341F9D21A323FA004F48C6 /* 4. Setting */ = {
+			isa = PBXGroup;
+			children = (
+				BB341F9B21A323EA004F48C6 /* SettingViewController.swift */,
+			);
+			path = "4. Setting";
+			sourceTree = "<group>";
+		};
+		BB47EC272153755D00C60875 = {
+			isa = PBXGroup;
+			children = (
+				BB47EC322153755D00C60875 /* FridgePal */,
+				BB47EC312153755D00C60875 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB47EC312153755D00C60875 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB47EC302153755D00C60875 /* FridgePal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB47EC322153755D00C60875 /* FridgePal */ = {
+			isa = PBXGroup;
+			children = (
+				BB47EC332153755D00C60875 /* AppDelegate.swift */,
+				BB47EC352153755D00C60875 /* AppTabBarController.swift */,
+				BB47EC4C2153921500C60875 /* 1 Fridge Page */,
+				BB062F92218813F200FB528B /* 1.1 Fridge - Add Purchase */,
+				BB062F932188141200FB528B /* 1.2 Fridge - Detail */,
+				BB7029D92196FFBD009B5124 /* 3 Category */,
+				BBC1830221A75E6300C7D610 /* 3.1 Category - Searching */,
+				BBC1830321A75E8D00C7D610 /* 3.2 Category - Manage Category */,
+				BBC182FE21A6BAEA00C7D610 /* 3.3 Category - Create Category */,
+				BBC1830121A73DFC00C7D610 /* 3.4 Category - Create Product */,
+				BB341F9D21A323FA004F48C6 /* 4. Setting */,
+				BB47EC472153760400C60875 /* Layout */,
+				BB47EC532153996400C60875 /* Struction */,
+				BB47EC3A2153755F00C60875 /* Assets.xcassets */,
+				BB47EC3C2153755F00C60875 /* LaunchScreen.storyboard */,
+				BB47EC3F2153755F00C60875 /* Info.plist */,
+				BBBE10062181FB9B00223B6A /* FridgePalModel.xcdatamodeld */,
+			);
+			path = FridgePal;
+			sourceTree = "<group>";
+		};
+		BB47EC472153760400C60875 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				BB47EC482153760F00C60875 /* AppLayoutParameter.swift */,
+				BB341F9921A31D62004F48C6 /* AppInt.swift */,
+				BB07257A21A1E96E00DC157E /* AppButton.swift */,
+				BB6FBC3B21802EDE003C0190 /* AppColour.swift */,
+				BB6FBC3D21803379003C0190 /* AppFont.swift */,
+				BB0C22FD21847DFA00D647F4 /* AppShapeAndLine.swift */,
+				BB70B5B32185EFD30028AE72 /* AppShadow.swift */,
+				BB0C22FB2183644000D647F4 /* AppBlur.swift */,
+				BB936FB1218BFC1E00B5CABA /* AppDate.swift */,
+				BB748DF1218DCB0000CAA6DC /* AppAnimation.swift */,
+				BB7029DA21970A3A009B5124 /* AppViewController.swift */,
+				BB7029DE21971388009B5124 /* AppPopViewController.swift */,
+				BBC1830921A9937700C7D610 /* AppPopSwipeForCreatingViewController.swift */,
+				BB341FA021A586B6004F48C6 /* AppPopTwoViewController.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		BB47EC4C2153921500C60875 /* 1 Fridge Page */ = {
+			isa = PBXGroup;
+			children = (
+				BB47EC45215375C700C60875 /* FridgeViewController.swift */,
+				BB47EC4F2153924300C60875 /* FridgeHeader.swift */,
+				BB47EC4D2153922C00C60875 /* FridgeCell.swift */,
+				BB47EC5B2153FF0500C60875 /* FridgeViewControllerDelegate.swift */,
+			);
+			path = "1 Fridge Page";
+			sourceTree = "<group>";
+		};
+		BB47EC532153996400C60875 /* Struction */ = {
+			isa = PBXGroup;
+			children = (
+				BB47EC592153E32000C60875 /* ExpandableSection.swift */,
+				BB0C22F921830C5200D647F4 /* CoreDataManager.swift */,
+				BB0ACEEB218EE2E2009E5271 /* FridgeFoodSummary.swift */,
+				BB0ACEED218F327A009E5271 /* Purchase.swift */,
+				BB547D6821918564001F3A30 /* Product.swift */,
+				BB7A075B2196B6A400E4378B /* Dictionary.swift */,
+				BB341F9E21A326C5004F48C6 /* Default.swift */,
+			);
+			path = Struction;
+			sourceTree = "<group>";
+		};
+		BB7029D92196FFBD009B5124 /* 3 Category */ = {
+			isa = PBXGroup;
+			children = (
+				BB936FB3218C150E00B5CABA /* CategoryViewController.swift */,
+				BB7029E4219945F9009B5124 /* CategoryHeader.swift */,
+				BBC182FF21A73D6000C7D610 /* CategoryCell.swift */,
+				BBC1830421A75F1F00C7D610 /* CategoryIndexListView.swift */,
+				BB7029E221988670009B5124 /* CategoryViewControllerDelegate.swift */,
+			);
+			path = "3 Category";
+			sourceTree = "<group>";
+		};
+		BBC182FE21A6BAEA00C7D610 /* 3.3 Category - Create Category */ = {
+			isa = PBXGroup;
+			children = (
+				BB7029E021986FA2009B5124 /* CategoryCreateCategoryViewController.swift */,
+				BBC182FC21A6BAC000C7D610 /* CategoryCreateCategoryCollectionCell.swift */,
+			);
+			path = "3.3 Category - Create Category";
+			sourceTree = "<group>";
+		};
+		BBC1830121A73DFC00C7D610 /* 3.4 Category - Create Product */ = {
+			isa = PBXGroup;
+			children = (
+				BBEF402E2188A201004D7E93 /* CategoryCreateProductViewController.swift */,
+				BBC1830621A976D400C7D610 /* CategoryCreateProductCollectionCell.swift */,
+			);
+			path = "3.4 Category - Create Product";
+			sourceTree = "<group>";
+		};
+		BBC1830221A75E6300C7D610 /* 3.1 Category - Searching */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3.1 Category - Searching";
+			sourceTree = "<group>";
+		};
+		BBC1830321A75E8D00C7D610 /* 3.2 Category - Manage Category */ = {
+			isa = PBXGroup;
+			children = (
+				BB07257821A1DFB000DC157E /* CategoryManageCategoryViewController.swift */,
+				BBC1830B21A9F32900C7D610 /* CategoryManageCategoryCell.swift */,
+				BBC1830F21AA193B00C7D610 /* CategoryMangeCategoryEditCategoryViewController.swift */,
+				BBC1830D21AA0CF200C7D610 /* CategoryManageCategoryViewControllerDelegate.swift */,
+			);
+			path = "3.2 Category - Manage Category";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB47EC2F2153755D00C60875 /* FridgePal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB47EC422153755F00C60875 /* Build configuration list for PBXNativeTarget "FridgePal" */;
+			buildPhases = (
+				BB47EC2C2153755D00C60875 /* Sources */,
+				BB47EC2D2153755D00C60875 /* Frameworks */,
+				BB47EC2E2153755D00C60875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FridgePal;
+			productName = FridgePal;
+			productReference = BB47EC302153755D00C60875 /* FridgePal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB47EC282153755D00C60875 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Yannian Liu";
+				TargetAttributes = {
+					BB47EC2F2153755D00C60875 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = BB47EC2B2153755D00C60875 /* Build configuration list for PBXProject "FridgePal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB47EC272153755D00C60875;
+			productRefGroup = BB47EC312153755D00C60875 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB47EC2F2153755D00C60875 /* FridgePal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB47EC2E2153755D00C60875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB47EC3E2153755F00C60875 /* LaunchScreen.storyboard in Resources */,
+				BB47EC3B2153755F00C60875 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB47EC2C2153755D00C60875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC1830C21A9F32900C7D610 /* CategoryManageCategoryCell.swift in Sources */,
+				BB47EC362153755D00C60875 /* AppTabBarController.swift in Sources */,
+				BBC1830A21A9937700C7D610 /* AppPopSwipeForCreatingViewController.swift in Sources */,
+				BB7A075C2196B6A400E4378B /* Dictionary.swift in Sources */,
+				BBBE10082181FB9C00223B6A /* FridgePalModel.xcdatamodeld in Sources */,
+				BB341F9C21A323EA004F48C6 /* SettingViewController.swift in Sources */,
+				BB6FBC3E21803379003C0190 /* AppFont.swift in Sources */,
+				BBEF402F2188A201004D7E93 /* CategoryCreateProductViewController.swift in Sources */,
+				BB0C22FE21847DFA00D647F4 /* AppShapeAndLine.swift in Sources */,
+				BBC1830521A75F1F00C7D610 /* CategoryIndexListView.swift in Sources */,
+				BBC1830721A976D400C7D610 /* CategoryCreateProductCollectionCell.swift in Sources */,
+				BB07257921A1DFB000DC157E /* CategoryManageCategoryViewController.swift in Sources */,
+				BB0C22FA21830C5200D647F4 /* CoreDataManager.swift in Sources */,
+				BB07257B21A1E96E00DC157E /* AppButton.swift in Sources */,
+				BBBE0FE42181AA8E00223B6A /* FridgeAddPurchaseViewController.swift in Sources */,
+				BB0C22FC2183644000D647F4 /* AppBlur.swift in Sources */,
+				BB748DF2218DCB0000CAA6DC /* AppAnimation.swift in Sources */,
+				BBC1830021A73D6000C7D610 /* CategoryCell.swift in Sources */,
+				BB7029DB21970A3A009B5124 /* AppViewController.swift in Sources */,
+				BB7029E321988670009B5124 /* CategoryViewControllerDelegate.swift in Sources */,
+				BB7A075621956A9600E4378B /* FridgeAddPurchaseViewController+ContainerView2.swift in Sources */,
+				BBC182FD21A6BAC000C7D610 /* CategoryCreateCategoryCollectionCell.swift in Sources */,
+				BB70B5B42185EFD30028AE72 /* AppShadow.swift in Sources */,
+				BBC1831021AA193B00C7D610 /* CategoryMangeCategoryEditCategoryViewController.swift in Sources */,
+				BB7029E5219945F9009B5124 /* CategoryHeader.swift in Sources */,
+				BB47EC5A2153E32000C60875 /* ExpandableSection.swift in Sources */,
+				BB341F9A21A31D62004F48C6 /* AppInt.swift in Sources */,
+				BB47EC4E2153922C00C60875 /* FridgeCell.swift in Sources */,
+				BB47EC342153755D00C60875 /* AppDelegate.swift in Sources */,
+				BB7029DF21971388009B5124 /* AppPopViewController.swift in Sources */,
+				BBC1830E21AA0CF200C7D610 /* CategoryManageCategoryViewControllerDelegate.swift in Sources */,
+				BB062F972188282800FB528B /* FridgeDetailViewControllerDelegate.swift in Sources */,
+				BB7A075821956C5000E4378B /* FridgeAddPurchaseViewController+ContainerView1.swift in Sources */,
+				BB6FBC3C21802EDE003C0190 /* AppColour.swift in Sources */,
+				BB547D6921918564001F3A30 /* Product.swift in Sources */,
+				BB47EC52215392F100C60875 /* FridgeDetailViewController.swift in Sources */,
+				BB47EC5C2153FF0500C60875 /* FridgeViewControllerDelegate.swift in Sources */,
+				BB47EC46215375C700C60875 /* FridgeViewController.swift in Sources */,
+				BB0ACEEE218F327A009E5271 /* Purchase.swift in Sources */,
+				BB0ACEEC218EE2E2009E5271 /* FridgeFoodSummary.swift in Sources */,
+				BB062F952188174F00FB528B /* FridgeDetailEditPurchaseView.swift in Sources */,
+				BB936FB4218C150F00B5CABA /* CategoryViewController.swift in Sources */,
+				BB062F8D218762EE00FB528B /* FridgeDetailCell.swift in Sources */,
+				BB72B0D221A04FA900557BBB /* FridgeAddPurchaseCell.swift in Sources */,
+				BB341F9F21A326C5004F48C6 /* Default.swift in Sources */,
+				BB341FA121A586B6004F48C6 /* AppPopTwoViewController.swift in Sources */,
+				BB47EC492153760F00C60875 /* AppLayoutParameter.swift in Sources */,
+				BB47EC502153924300C60875 /* FridgeHeader.swift in Sources */,
+				BB7029E121986FA2009B5124 /* CategoryCreateCategoryViewController.swift in Sources */,
+				BB936FB2218BFC1E00B5CABA /* AppDate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB47EC3C2153755F00C60875 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB47EC3D2153755F00C60875 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB47EC402153755F00C60875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB47EC412153755F00C60875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB47EC432153755F00C60875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LXFU6X2L5;
+				INFOPLIST_FILE = FridgePal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-iphone.FridgePal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB47EC442153755F00C60875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LXFU6X2L5;
+				INFOPLIST_FILE = FridgePal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-iphone.FridgePal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB47EC2B2153755D00C60875 /* Build configuration list for PBXProject "FridgePal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB47EC402153755F00C60875 /* Debug */,
+				BB47EC412153755F00C60875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB47EC422153755F00C60875 /* Build configuration list for PBXNativeTarget "FridgePal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB47EC432153755F00C60875 /* Debug */,
+				BB47EC442153755F00C60875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BBBE10062181FB9B00223B6A /* FridgePalModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BBBE10072181FB9C00223B6A /* FridgePalModel.xcdatamodel */,
+			);
+			currentVersion = BBBE10072181FB9C00223B6A /* FridgePalModel.xcdatamodel */;
+			path = FridgePalModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB47EC282153755D00C60875 /* Project object */;
+}
